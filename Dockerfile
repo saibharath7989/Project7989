@@ -1,5 +1,3 @@
-s (11 sloc)  344 Bytes
-
 # Step 1: Build the app in image 'builder'
 FROM node:12.8-alpine AS builder
 
