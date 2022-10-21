@@ -3,7 +3,7 @@ FROM node:latest as node
 WORKDIR /app
 COPY . .
 RUN npm install
-RUN npm run build --omit=dev
+RUN npm run build --prod
 
 
 # stage2
